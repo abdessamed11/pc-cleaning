@@ -1,0 +1,15 @@
+﻿<Window x:Class="test.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn_mise" Content="Mise à jour" HorizontalAlignment="Left" Margin="395,215,0,0" VerticalAlignment="Top" Width="195" Height="45" Background="#FF5756F6" Foreground="White" FontSize="20" Click="btn_mise_Click"/>
+        <ProgressBar x:Name="prog_value" HorizontalAlignment="Left" Height="30" Margin="275,293,0,0" VerticalAlignment="Top" Width="410" ValueChanged="ProgressBar_ValueChanged"/>
+        <Label x:Name="lbl_pourcent" Content="Label" HorizontalAlignment="Left" Margin="700,286,0,0" VerticalAlignment="Top" FontSize="22"/>
+
+    </Grid>
+</Window>
